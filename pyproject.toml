@@ -1,0 +1,21 @@
+[project]
+name = "taller-agentes-universidad"
+version = "0.1.0"
+description = "Taller de Agentes - Ejemplos prácticos con LangChain y OpenAI"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langchain-community",
+    "langchain-chroma",
+    "langchain-text-splitters",
+    "tiktoken",
+    "pypdf",
+    "duckduckgo-search",
+    "python-dotenv",
+]
+
+[dependency-groups]
+dev = [
+    "fpdf2>=2.8.7",
+]
