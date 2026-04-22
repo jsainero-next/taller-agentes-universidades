@@ -1,3 +1,10 @@
 langchain-openai
 tiktoken
 python-dotenv
+langchain-chroma
+langchain-text-splitters
+pypdf
+langgraph
+streamlit
+fpdf2
+googlesearch-python
