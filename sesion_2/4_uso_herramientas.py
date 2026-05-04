@@ -43,7 +43,7 @@ def dividir(a: float, b: float) -> float:
 
 
 def main() -> None:
-    llm = ChatOpenAI(model="gpt-4.1-nano", temperature=0)
+    llm = ChatOpenAI(model="gpt-5.4-nano", temperature=0)
     agent = create_react_agent(
         llm,
         tools=[sumar, restar, multiplicar, dividir],
